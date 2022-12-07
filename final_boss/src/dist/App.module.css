@@ -34,7 +34,7 @@
   @apply flex justify-between;
 }
 .quiz_list_box .js_quiz_btn_box .js_arrow .soon {
-  @apply text-[#FBDF80];
+  @apply text-[#FBDF80] font-normal;
 }
 .quiz_list_box .js_quiz_btn_box .js_quiz_btn_text {
   @apply flex flex-col items-center font-mono text-[20px] text-[#FBDF80] font-normal;
@@ -46,7 +46,7 @@
   @apply flex justify-between;
 }
 .quiz_list_box .react_quiz_btn_box .react_arrow .soon {
-  @apply text-[#7CAAFA];
+  @apply text-[#7CAAFA] font-normal;
 }
 .quiz_list_box .react_quiz_btn_box .react_quiz_btn_text {
   @apply flex flex-col items-center font-mono text-[20px] text-[#7CAAFA] font-normal;
@@ -58,7 +58,7 @@
   @apply flex justify-between;
 }
 .quiz_list_box .sol_quiz_btn_box .sol_arrow .soon {
-  @apply text-[#A07BF0];
+  @apply text-[#A07BF0] font-normal;
 }
 .quiz_list_box .sol_quiz_btn_box .sol_quiz_btn_text {
   @apply flex flex-col items-center font-mono text-[20px] text-[#A07BF0] font-normal;

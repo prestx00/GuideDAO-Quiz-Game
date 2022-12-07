@@ -43,7 +43,7 @@
                 @apply flex justify-between;
 
                 .soon {
-                    @apply text-[#FBDF80];
+                    @apply text-[#FBDF80] font-normal;
                 }
             }
             .js_quiz_btn_text {
@@ -58,7 +58,7 @@
                 @apply flex justify-between;
 
                 .soon {
-                    @apply text-[#7CAAFA];
+                    @apply text-[#7CAAFA] font-normal;
                 }
             }
             .react_quiz_btn_text {
@@ -73,7 +73,7 @@
                 @apply flex justify-between;
 
                 .soon {
-                    @apply text-[#A07BF0];
+                    @apply text-[#A07BF0] font-normal;
                 }
             }
             .sol_quiz_btn_text {
