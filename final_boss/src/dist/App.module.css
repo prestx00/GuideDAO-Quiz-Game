@@ -1,0 +1,90 @@
+.main_block {
+  @apply flex w-screen h-screen justify-center items-center;
+}
+.main_block .main_block_start {
+  @apply flex justify-center items-center flex-col w-[800px] h-[400px] bg-[#9f9f9f] sm:rounded-3xl bg-opacity-60 border-0 backdrop-blur-sm;
+}
+.main_block .main_block_start .main_block_start_caption {
+  @apply text-[50px] font-mono antialiased not-italic font-normal;
+}
+.main_block .main_block_start .main_block_start_btn {
+  @apply flex mt-5 text-[25px] justify-center items-center hover:underline;
+}
+
+.login {
+  @apply flex justify-center flex-col;
+}
+
+.quiz_list_box {
+  @apply flex w-[800px] justify-around items-center z-10;
+}
+.quiz_list_box .html_quiz_btn_box {
+  @apply flex flex-col justify-between cursor-grab active:cursor-grabbing hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#FF4D00] border-solid sm:rounded-3xl;
+}
+.quiz_list_box .html_quiz_btn_box .html_arrow {
+  @apply flex justify-end;
+}
+.quiz_list_box .html_quiz_btn_box .html_quiz_btn_text {
+  @apply flex flex-col items-center font-mono text-[20px] text-[#FF4D00] font-normal;
+}
+.quiz_list_box .js_quiz_btn_box {
+  @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#FBDF80] border-solid sm:rounded-3xl;
+}
+.quiz_list_box .js_quiz_btn_box .js_arrow {
+  @apply flex justify-between;
+}
+.quiz_list_box .js_quiz_btn_box .js_arrow .soon {
+  @apply text-[#FBDF80];
+}
+.quiz_list_box .js_quiz_btn_box .js_quiz_btn_text {
+  @apply flex flex-col items-center font-mono text-[20px] text-[#FBDF80] font-normal;
+}
+.quiz_list_box .react_quiz_btn_box {
+  @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#7CAAFA] border-solid sm:rounded-3xl;
+}
+.quiz_list_box .react_quiz_btn_box .react_arrow {
+  @apply flex justify-between;
+}
+.quiz_list_box .react_quiz_btn_box .react_arrow .soon {
+  @apply text-[#7CAAFA];
+}
+.quiz_list_box .react_quiz_btn_box .react_quiz_btn_text {
+  @apply flex flex-col items-center font-mono text-[20px] text-[#7CAAFA] font-normal;
+}
+.quiz_list_box .sol_quiz_btn_box {
+  @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#A07BF0] border-solid sm:rounded-3xl;
+}
+.quiz_list_box .sol_quiz_btn_box .sol_arrow {
+  @apply flex justify-between;
+}
+.quiz_list_box .sol_quiz_btn_box .sol_arrow .soon {
+  @apply text-[#A07BF0];
+}
+.quiz_list_box .sol_quiz_btn_box .sol_quiz_btn_text {
+  @apply flex flex-col items-center font-mono text-[20px] text-[#A07BF0] font-normal;
+}
+
+.question_and_answer_box {
+  @apply flex w-[600px] h-[400px] justify-around flex-col;
+}
+.question_and_answer_box .question_box {
+  @apply flex justify-center flex-col items-center;
+}
+.question_and_answer_box .question_box .question_box_count {
+  @apply text-[15px] font-mono font-normal;
+}
+.question_and_answer_box .question_box .question_box_text {
+  @apply text-[30px] font-mono font-normal;
+}
+.question_and_answer_box .answer_box {
+  @apply flex w-[600px] h-[200px] flex-wrap justify-between flex-col;
+}
+.question_and_answer_box .answer_box > button {
+  @apply text-[16px] border divide-solid border-[#DDDDDD] cursor-pointer p-[5px] sm:rounded-3xl;
+}
+.question_and_answer_box .answer_box > button:hover {
+  @apply bg-white;
+}
+.question_and_answer_box .answer_box > button:active {
+  @apply bg-zinc-500;
+}

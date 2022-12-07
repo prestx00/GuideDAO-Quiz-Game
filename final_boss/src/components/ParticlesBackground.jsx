@@ -27,7 +27,7 @@ export default function Particle(){
 
     "fullScreen": {
         "enable": true,
-        "zIndex": -1
+        "zIndex": -10
     },
     "fpsLimit": 120,
     "particles": {
@@ -39,7 +39,7 @@ export default function Particle(){
             }
         },
         "color": {
-            "value": "#FFFFFF",
+            "value": "#000000",
             "animation": {
                 "enable": true,
                 "speed": 20,
@@ -58,7 +58,7 @@ export default function Particle(){
         "links": {
             "enable": true,
             "distance": 100,
-            "color": "#ffffff",
+            "color": "#000000",
             "opacity": 0.4,
             "width": 1
         },
@@ -78,7 +78,7 @@ export default function Particle(){
                 "mode": "repulse"
             },
             "onClick": {
-                "enable": true,
+                "enable": false,
                 "mode": "push"
             },
             "resize": true
@@ -94,7 +94,7 @@ export default function Particle(){
     },
     "detectRetina": true,
     "background": {
-        "color": "#000000"
+        "color": "#FFFFFF"
     }
             }
         }
