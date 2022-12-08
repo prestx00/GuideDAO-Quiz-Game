@@ -28,10 +28,10 @@
   @apply flex flex-col items-center font-mono text-[20px] text-[#FF4D00] font-normal;
 }
 .quiz_list_box .js_quiz_btn_box {
-  @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#FBDF80] border-solid sm:rounded-3xl;
+  @apply flex flex-col justify-between cursor-grab active:cursor-grabbing hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#FBDF80] border-solid sm:rounded-3xl;
 }
 .quiz_list_box .js_quiz_btn_box .js_arrow {
-  @apply flex justify-between;
+  @apply flex justify-end;
 }
 .quiz_list_box .js_quiz_btn_box .js_arrow .soon {
   @apply text-[#FBDF80] font-normal;
@@ -40,10 +40,10 @@
   @apply flex flex-col items-center font-mono text-[20px] text-[#FBDF80] font-normal;
 }
 .quiz_list_box .react_quiz_btn_box {
-  @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#7CAAFA] border-solid sm:rounded-3xl;
+  @apply flex flex-col justify-between cursor-grab active:cursor-grabbing hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#7CAAFA] border-solid sm:rounded-3xl;
 }
 .quiz_list_box .react_quiz_btn_box .react_arrow {
-  @apply flex justify-between;
+  @apply flex justify-end;
 }
 .quiz_list_box .react_quiz_btn_box .react_arrow .soon {
   @apply text-[#7CAAFA] font-normal;
@@ -52,10 +52,10 @@
   @apply flex flex-col items-center font-mono text-[20px] text-[#7CAAFA] font-normal;
 }
 .quiz_list_box .sol_quiz_btn_box {
-  @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#A07BF0] border-solid sm:rounded-3xl;
+  @apply flex flex-col justify-between cursor-grab active:cursor-grabbing hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#A07BF0] border-solid sm:rounded-3xl;
 }
 .quiz_list_box .sol_quiz_btn_box .sol_arrow {
-  @apply flex justify-between;
+  @apply flex justify-end;
 }
 .quiz_list_box .sol_quiz_btn_box .sol_arrow .soon {
   @apply text-[#A07BF0] font-normal;
@@ -87,4 +87,8 @@
 }
 .question_and_answer_box .answer_box > button:active {
   @apply bg-zinc-500;
+}
+
+.score_box {
+  @apply flex justify-center w-[800px] h-[400px] items-center;
 }

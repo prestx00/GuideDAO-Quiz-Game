@@ -37,10 +37,10 @@
     
 
         .js_quiz_btn_box {
-            @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#FBDF80] border-solid sm:rounded-3xl;
+            @apply flex flex-col justify-between cursor-grab active:cursor-grabbing hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#FBDF80] border-solid sm:rounded-3xl;
     
             .js_arrow {
-                @apply flex justify-between;
+                @apply flex justify-end;
 
                 .soon {
                     @apply text-[#FBDF80] font-normal;
@@ -52,10 +52,10 @@
         }
     
         .react_quiz_btn_box {
-            @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#7CAAFA] border-solid sm:rounded-3xl;
+            @apply flex flex-col justify-between cursor-grab active:cursor-grabbing hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#7CAAFA] border-solid sm:rounded-3xl;
     
             .react_arrow {
-                @apply flex justify-between;
+                @apply flex justify-end;
 
                 .soon {
                     @apply text-[#7CAAFA] font-normal;
@@ -67,10 +67,10 @@
          }
 
         .sol_quiz_btn_box {
-            @apply flex flex-col justify-between hover:cursor-no-drop hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#A07BF0] border-solid sm:rounded-3xl;
+            @apply flex flex-col justify-between cursor-grab active:cursor-grabbing hover:bg-black w-[150px] h-[150px] p-[20px] border-4 border-[#A07BF0] border-solid sm:rounded-3xl;
     
             .sol_arrow {
-                @apply flex justify-between;
+                @apply flex justify-end;
 
                 .soon {
                     @apply text-[#A07BF0] font-normal;
@@ -113,4 +113,8 @@
         .answer_box >button:active {
             @apply bg-zinc-500;
         }
+}
+
+.score_box {
+    @apply flex justify-center w-[800px] h-[400px] items-center;
 }
