@@ -74,7 +74,7 @@
   @apply text-[15px] font-mono font-normal;
 }
 .question_and_answer_box .question_box .question_box_text {
-  @apply text-[30px] font-mono font-normal;
+  @apply flex text-center justify-center items-center text-[30px] font-mono font-normal;
 }
 .question_and_answer_box .answer_box {
   @apply flex w-[600px] h-[200px] flex-wrap justify-between flex-col;
@@ -90,5 +90,26 @@
 }
 
 .score_box {
-  @apply flex justify-center w-[800px] h-[400px] items-center;
+  @apply flex justify-around flex-col w-[800px] h-[200px] items-center;
+}
+.score_box .score_text {
+  @apply text-[30px] font-mono font-normal;
+}
+.score_box .score {
+  @apply text-[20px] font-mono font-normal;
+}
+.score_box .btn_box {
+  @apply flex w-[400px] justify-around;
+}
+.score_box .btn_box .finish_btn {
+  @apply flex justify-center cursor-pointer items-center font-mono font-normal w-[100px] border border-[#00FF00] border-solid sm:rounded-3xl;
+}
+.score_box .btn_box .finish_btn:hover {
+  @apply bg-[#C1E1C1];
+}
+.score_box .btn_box .finish_btn_reject {
+  @apply flex justify-center items-center font-mono font-normal w-[100px] border border-[#FF0000] border-solid sm:rounded-3xl;
+}
+.score_box .btn_box .finish_btn_reject:hover {
+  @apply cursor-not-allowed;
 }

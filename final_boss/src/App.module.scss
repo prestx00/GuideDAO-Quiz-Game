@@ -94,7 +94,7 @@
             }
 
             .question_box_text {
-                @apply text-[30px] font-mono font-normal;
+                @apply flex text-center justify-center items-center text-[30px] font-mono font-normal;
             }
         }
 
@@ -116,5 +116,29 @@
 }
 
 .score_box {
-    @apply flex justify-center w-[800px] h-[400px] items-center;
+    @apply flex justify-around flex-col w-[800px] h-[200px] items-center;
+
+    .score_text {
+        @apply text-[30px] font-mono font-normal;
+    }
+    .score {
+        @apply text-[20px] font-mono font-normal;
+    }
+    .btn_box{
+        @apply flex w-[400px] justify-around;
+
+        .finish_btn { 
+            @apply flex justify-center cursor-pointer items-center font-mono font-normal w-[100px] border border-[#00FF00] border-solid sm:rounded-3xl;
+        }
+        .finish_btn:hover {
+            @apply bg-[#C1E1C1];
+        }
+
+        .finish_btn_reject {
+            @apply flex justify-center items-center font-mono font-normal w-[100px] border border-[#FF0000] border-solid sm:rounded-3xl;;
+        }
+        .finish_btn_reject:hover {
+            @apply cursor-not-allowed;
+        }
+    }
 }

@@ -1,38 +1,92 @@
 const questionsJS = [
     {
-        questionText: 'Hello Javascript',
+        questionText: 'let text = "JavaScript"; console.log(text.length) выведет?',
         answerOptions: [
-            { answerText: 'New York', isCorrect: false },
-            { answerText: 'London', isCorrect: false },
-            { answerText: 'Paris', isCorrect: true },
-            { answerText: 'Dublin', isCorrect: false },
+            { answerText: '10', isCorrect: true },
+            { answerText: '9', isCorrect: false },
+            { answerText: '11', isCorrect: false },
+            { answerText: '8', isCorrect: false },
         ],
     },
     {
-        questionText: 'Who is CEO of Tesla?',
+        questionText: '"GORE-TEX".substring(5) вернет?',
         answerOptions: [
-            { answerText: 'Jeff Bezos', isCorrect: false },
-            { answerText: 'Elon Musk', isCorrect: true },
-            { answerText: 'Bill Gates', isCorrect: false },
-            { answerText: 'Tony Stark', isCorrect: false },
+            { answerText: 'TEX', isCorrect: true },
+            { answerText: '-TEX', isCorrect: false },
+            { answerText: 'GORE-', isCorrect: false },
+            { answerText: 'GORE-T', isCorrect: false },
         ],
     },
     {
-        questionText: 'The iPhone was created by which company?',
+        questionText: 'Какой из этих методов массива возвращает новый массив, длина которого совпадает с исходным?',
         answerOptions: [
-            { answerText: 'Apple', isCorrect: true },
-            { answerText: 'Intel', isCorrect: false },
-            { answerText: 'Amazon', isCorrect: false },
-            { answerText: 'Microsoft', isCorrect: false },
+            { answerText: '.map()', isCorrect: true },
+            { answerText: '.include()', isCorrect: false },
+            { answerText: '.join()', isCorrect: false },
+            { answerText: '.find()', isCorrect: false },
         ],
     },
     {
-        questionText: 'How many Harry Potter books are there?',
+        questionText: 'function addOne(number = 0) {return number + 1}; Что будет, если вызвать без аргумента?',
         answerOptions: [
-            { answerText: '1', isCorrect: false },
-            { answerText: '4', isCorrect: false },
-            { answerText: '6', isCorrect: false },
-            { answerText: '7', isCorrect: true },
+            { answerText: '1', isCorrect: true },
+            { answerText: 'NaN', isCorrect: false },
+            { answerText: '0', isCorrect: false },
+            { answerText: 'undefined', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'const sum = (a, b) => {a + b}; sum(1,2) вернет?',
+        answerOptions: [
+            { answerText: 'undefined', isCorrect: true },
+            { answerText: '3', isCorrect: false },
+            { answerText: 'NaN', isCorrect: false },
+            { answerText: '0', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'const name = "   Beeple Crap "; name.trim() вернет?',
+        answerOptions: [
+            { answerText: '"Beeple Crap"', isCorrect: true },
+            { answerText: '"eeple Crap"', isCorrect: false },
+            { answerText: '"Beeple Cra"', isCorrect: false },
+            { answerText: '"BeepleCrap"', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'Что делает строчный метод .split(x)?',
+        answerOptions: [
+            { answerText: 'разбивает строку на элементы массива, используя разделитель из параметра для определения границ между элементами', isCorrect: true },
+            { answerText: 'заменяет только первый встреченный параметр x', isCorrect: false },
+            { answerText: 'заменяет все встреченные параметры на x', isCorrect: false },
+            { answerText: 'обрезает строку с первого параметра x', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'Для преобразования массива в строку обычно нужна комбинация методов ...?',
+        answerOptions: [
+            { answerText: '.map() и .join()', isCorrect: true },
+            { answerText: '.map() и .include()', isCorrect: false },
+            { answerText: '.map() и .split()', isCorrect: false },
+            { answerText: '.map() и .replace()', isCorrect: false },
+        ],
+    },
+    {
+        questionText: 'Чтобы прочитать динамическое свойство объекта нужно использовать ....... , обычный синтаксис с точкой не подойдет',
+        answerOptions: [
+            { answerText: 'квадратные скобки []', isCorrect: true },
+            { answerText: 'фигурные скобки {}', isCorrect: false },
+            { answerText: 'оператор нулевого слияния ??', isCorrect: false },
+            { answerText: 'спред оператор ...', isCorrect: false }
+        ],
+    },
+    {
+        questionText: 'В классах ключевое слово super позволяет классу-наследнику ...?',
+        answerOptions: [
+            { answerText: 'стать super звездой', isCorrect: false },
+            { answerText: 'вызывать функции родительского класса', isCorrect: true },
+            { answerText: 'получить доступ ко всем переменным родительского класса', isCorrect: false },
+            { answerText: 'изменять данные в родительском классе', isCorrect: false },
         ],
     },
 ];
