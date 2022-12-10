@@ -131,7 +131,7 @@
             @apply flex justify-center cursor-pointer items-center font-mono font-normal w-[100px] border border-[#00FF00] border-solid sm:rounded-3xl;
         }
         .finish_btn:hover {
-            @apply bg-[#C1E1C1];
+            @apply bg-[#C1E1C1] font-normal;
         }
 
         .finish_btn_reject {

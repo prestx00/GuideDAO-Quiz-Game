@@ -105,7 +105,7 @@
   @apply flex justify-center cursor-pointer items-center font-mono font-normal w-[100px] border border-[#00FF00] border-solid sm:rounded-3xl;
 }
 .score_box .btn_box .finish_btn:hover {
-  @apply bg-[#C1E1C1];
+  @apply bg-[#C1E1C1] font-normal;
 }
 .score_box .btn_box .finish_btn_reject {
   @apply flex justify-center items-center font-mono font-normal w-[100px] border border-[#FF0000] border-solid sm:rounded-3xl;
